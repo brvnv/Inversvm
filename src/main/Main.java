@@ -12,7 +12,9 @@ public class Main {
 		
 		//Se liga nesse for
 		for(int i=entrada.length(); i==0; i--) {
+			System.out.println(i);
 			letraCorrente=entrada.charAt(i);
+			System.out.println(letraCorrente);
 			saida=saida+letraCorrente;
 		}
 		System.out.println(saida);
