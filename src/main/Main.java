@@ -18,7 +18,8 @@ public class Main {
 		System.out.println(saida);
 		System.out.println("De novo? s ou n");
 		String sOuN=sc.nextLine();
-		System.out.println(sOuN);
+		if(sOuN=="s") inverte();
+		else System.out.println("E quem disse que vou te largar? Não aprendi a finalizar o programa, então você vai jogar de novo.");
 	}
 
 public static void main (String[] args) {
