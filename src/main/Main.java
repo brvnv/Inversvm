@@ -7,8 +7,8 @@ public class Main {
 		System.out.println("Me diga algo interessante.");
 		Scanner sc=new Scanner(System.in);
 		String entrada=sc.nextLine();
-		char letraCorrente;
-		String saida;
+		char letraCorrente=0;
+		String saida="";
 		
 		//Se liga nesse for
 		for(int i=entrada.length(); i==0; i--) {
