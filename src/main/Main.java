@@ -11,10 +11,8 @@ public class Main {
 		String saida="";
 		
 		//Se liga nesse for
-		for(int i=entrada.length(); i>0; i--) {
-			System.out.println(i);
+		for(int i=entrada.length()-1; i>=0; i--) {
 			letraCorrente=entrada.charAt(i);
-			System.out.println(letraCorrente);
 			saida=saida+letraCorrente;
 		}
 		System.out.println(saida);
