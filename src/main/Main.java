@@ -11,7 +11,7 @@ public class Main {
 		String saida="";
 		
 		//Se liga nesse for
-		for(int i=entrada.length(); i==0; i--) {
+		for(int i=entrada.length(); i>0; i--) {
 			System.out.println(i);
 			letraCorrente=entrada.charAt(i);
 			System.out.println(letraCorrente);
